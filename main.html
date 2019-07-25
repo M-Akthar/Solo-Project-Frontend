@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+<div id="overlayTag">
+    <!-- <div class="side">
+        <h1>Placeholder</h1>
+    </div> -->
+
+    <div id="main" class="container">
+
+        <div class="row">
+
+            <div id="listEntry" class="col-sm-4">
+
+                <div class="card">
+                    <div class="navC">
+                        <h3>Your Lists</h3>
+                        <form onsubmit="return handleAddList(this)" action="">
+                            <input id="addList" type="text" placeholder="Create List" required>
+                            <button class="btn btn-info">Create List</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-sm-8">
+
+                <div class="row">
+                    <div id="userBrand" class="col-sm-6">
+                        <h3 id="userTagPointer">Username</h3>
+                    </div>
+                    <div id="navUser" class="col-sm-6">
+                        <div class="card">
+                            <div class="card-body">
+                                <p><a href="account.html">Account</a></p>
+                                <p><a href="login.html">Sign Out</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <h1>Your Tasks</h1>
+
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="listSection col-sm-4">
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Placeholder</h4>
+                        <button class="btn btn-danger">delete</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="card-body">
+                        <h4>Placeholder</h4>
+                        <button class="btn btn-danger">delete</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="contentSection col-sm-8">
+
+                <form onsubmit="return handleAddTask()" action="">
+                    <input id="taskName" type="text" placeholder="Max 255 Characters" size="32" maxlength="255" required>
+                    <button class="btn btn-info">Add Task</button>
+                </form>
+
+                <div id="taskDiv">
+                    <div class="card">
+                        <div class="card-body">
+                            <ul id="taskPointer">
+
+                                <!-- <li>
+                                    <input type="checkbox"> 
+                                    <p>Task</p>
+                                </li>
+                                <li>
+                                    <input type="checkbox">
+                                    <p>Task</p>
+                                </li> -->
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    <script src="request.js"></script>
+    <script src="main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

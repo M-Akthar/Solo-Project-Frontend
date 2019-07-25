@@ -1,0 +1,86 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("./background-images/pens-paper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ---------------------------------------------- Nav --------------------------------------------- */
+
+/* .navC {
+    width: 90%;
+    text-align: right;
+}
+
+.navC p {
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: underline;
+} */
+
+.navC .card {
+    margin: 5px;
+    text-align: center;
+    opacity: 0.8;
+    width: 20%;
+    /* min-width: 100px;
+    margin-left: 80%; */
+}
+
+/* ------------------------------------------------- Main body ------------------------------------- */
+
+.mainBody .card p {
+    display: inline-block;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.mainBody .card button.btn.btn-danger, .card h3 {
+    margin-top: 30px;
+}
+
+.mainBody .card button.btn.btn-danger {
+    margin-top: 50px;
+}
+
+.mainBody .card button.btn.btn-dark {
+    margin-top: 10px;
+}
+
+.mainBody .card {
+    width: 30%;
+    min-width: 180px;
+    margin: auto;
+    margin-top: 40px;
+    border: 0px;
+    /* min-height: 100%; */
+    /* background-image: url("./white-paper1.jpg"); */
+    background-size: cover;
+    background-color: transparent;
+}
+
+#updateFormCard {
+    margin: 2px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr {
+    border: none;
+    color: black;
+    background-color: black;
+    height: 2px;
+    margin-bottom: 0;
+}
+
+#modalDelete {
+    margin-top: 0;
+}

@@ -1,0 +1,136 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    background-image: url("./background-images/vintage-mac.jpg");
+    background-size: cover;
+    color: #F4C724;
+}
+
+#overlayTag {
+    background-color: rgba(14, 13, 13, 0.4);
+    z-index: 1;
+}
+
+input {
+    margin-bottom: 2px;
+}
+
+#main.container {
+    margin: 0;
+    min-width: 100%;
+}
+
+.card {
+    background-color: #2C3335;
+}
+
+a {
+    color: #F4C724;
+}
+
+/* ------------------------------------------ Nav Section ------------------------------------- */
+
+#navUser {
+    /* text-align: right; */
+    padding-top: 10px;
+}
+
+#navUser .card p {
+    display: inline-block;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+#navUser .card {
+    text-align: center;
+    opacity: 0.85;
+    width: 59%;
+    min-width: 100px;
+    /* margin-left: 80%; */
+}
+
+#userBrand {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+/* ------------------------------------------- List Section ---------------------------------- */
+
+#listEntry .card {
+    max-width: 50%;
+    min-width: 170px;
+    opacity: 0.85;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+#listEntry .card input {
+    max-width: 80%;
+}
+
+
+.listSection .card {
+    max-width: 50%;
+    min-width: 170px;
+    opacity: 0.85;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.listSection .card h4 {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* ------------------------------------------ Task List ------------------------------------ */
+
+#taskDiv .card {
+    width: 80%;
+    margin-top: 15px;
+    background-image: url("./background-images/white-paper1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+#taskDiv .card li {
+    margin-bottom: 5px;
+    list-style-type: none;
+}
+
+#taskDiv .card li p {
+    display: inline;
+    /* margin-bottom: 5px; */
+}
+
+.marginLeft {
+    margin-left: 5px;
+}
+
+/* ------------------------------------------------ Copied code ----------------------------------------- */
+
+/* Adds an input highligt */
+
+input[type=text] {
+  /* -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out; */
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #DDDDDD;
+}
+ 
+input[type=text]:focus{
+  box-shadow: 0 0 5px #F4C724;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #F4C724;
+}
+
