@@ -83,11 +83,15 @@ function displayUsername() {
 function handleAddList(form) {
     const textBox = document.getElementById("addList");
 
-    window.alert("Feature not implemented");
+    notifyFeatureMissing();
 
     textBox.value = "";
     return false;
 }
+
+function notifyFeatureMissing() {
+    window.alert("Feature not implemented");
+} 
 
 displayUsername();
 getUserTasks();
