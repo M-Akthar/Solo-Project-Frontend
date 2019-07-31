@@ -1,4 +1,4 @@
-const createUserURL = "http://localhost:8080/TodoApp/api/user/create";
+const createUserURL = "http://35.189.89.61:8081/TodoApp/api/user/create";
 const regData = {};
 
 function handleSubmit(form) {

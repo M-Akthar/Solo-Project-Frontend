@@ -1,9 +1,9 @@
 const userID = JSON.parse(sessionStorage.getItem("userData")).USERID;
 const sessionUsername = sessionStorage.getItem("username");
-const deleteTaskUrl = "http://localhost:8080/TodoApp/api/task/delete/";
-const createTaskURL = "http://localhost:8080/TodoApp/api/task/create/"
+const deleteTaskUrl = "http://35.189.89.61:8081/TodoApp/api/task/delete/";
+const createTaskURL = "http://35.189.89.61:8081/TodoApp/api/task/create/"
     + userID;
-const getUserTasksURL = "http://localhost:8080/TodoApp/api/task/getUserTasks/"
+const getUserTasksURL = "http://35.189.89.61:8081/TodoApp/api/task/getUserTasks/"
     + userID;
 const userTasksArray = [];
 

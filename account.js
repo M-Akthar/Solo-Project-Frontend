@@ -1,9 +1,9 @@
 const userID = JSON.parse(sessionStorage.getItem("userData")).USERID;
 const sessionUsername = sessionStorage.getItem("username");
 
-const getUserURL = "http://localhost:8080/TodoApp/api/user/getUser/" + userID;
-const updateUserURL = "http://localhost:8080/TodoApp/api/user/update/" + userID;
-const deleteUserURL = "http://localhost:8080/TodoApp/api/user/delete/" + userID;
+const getUserURL = "http://35.189.89.61:8081/TodoApp/api/user/getUser/" + userID;
+const updateUserURL = "http://35.189.89.61:8081/TodoApp/api/user/update/" + userID;
+const deleteUserURL = "http://35.189.89.61:8081/TodoApp/api/user/delete/" + userID;
 
 const updateData = {};
 

@@ -1,4 +1,4 @@
-const loginURL = "http://localhost:8080/TodoApp/api/user/login";
+const loginURL = "http://35.189.89.61:8081/TodoApp/api/user/login";
 
 function handleLogin(form) {
     const loginData = {};
