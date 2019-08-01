@@ -22,74 +22,74 @@
     <div id="overlayTag">
 
         <div class="container">
-            <div class="mainBody">
+            <div class="mainBody row">
+                <div class="col-lg">
+                    <div class="card">
+                        <div class="card-body">
 
-                <div class="card">
-                    <div class="card-body">
+                            <p><a href="main.html">My Lists</a></p>
+                            <p><a href="login.html">Sign Out</a></p>
 
-                        <p><a href="main.html">My Lists</a></p>
-                        <p><a href="login.html">Sign Out</a></p>
+                            <h3 id="userTitle">User Details</h3>
+                            <h5 id="usernameDisplay">Username</h5>
+                            <h5 id="firstNameDisplay">First Name</h5>
+                            <h5 id="lastNameDisplay">Last Name</h5>
 
-                        <h3 id="userTitle">User Details</h3>
-                        <h5 id="usernameDisplay">Username</h5>
-                        <h5 id="firstNameDisplay">First Name</h5>
-                        <h5 id="lastNameDisplay">Last Name</h5>
+                            <hr id="seperator">
 
-                        <hr id="seperator">
+                            <div id="updateFormCard" class="card">
+                                <div class="card-body">
+                                    <h6>Update Details: </h6>
+                                    <form onsubmit="return handleUpdate(this)" action="">
+                                        <label for="firstName">First Name: </label>
+                                        <input id="firstName" type="text" required>
+                                        <label for="lastName">Last Name: </label>
+                                        <input id="lastName" type="text" required>
+                                        <label for="password">Password: </label>
+                                        <input id="password" type="password" required>
 
-                        <div id="updateFormCard" class="card">
-                            <div class="card-body">
-                                <h6>Update Details: </h6>
-                                <form onsubmit="return handleUpdate(this)" action="">
-                                    <label for="firstName">First Name: </label>
-                                    <input id="firstName" type="text" required>
-                                    <label for="lastName">Last Name: </label>
-                                    <input id="lastName" type="text" required>
-                                    <label for="password">Password: </label>
-                                    <input id="password" type="password" required>
+                                        <button class="btn btn-dark">Update</button>
+                                    </form>
 
-                                    <button class="btn btn-dark">Update</button>
-                                </form>
+                                    <!-- <button onclick="deleteAccount()" class="btn btn-danger">Delete Account</button> -->
 
-                                <!-- <button onclick="deleteAccount()" class="btn btn-danger">Delete Account</button> -->
+                                    <!-- Button trigger modal -->
+                                    <button type="button" class="btn btn-danger" data-toggle="modal"
+                                        data-target="#exampleModal">
+                                        Delete Account
+                                    </button>
 
-                                <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-danger" data-toggle="modal"
-                                    data-target="#exampleModal">
-                                    Delete Account
-                                </button>
-
-                                <!-- Modal -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
-                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Delete Account</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                Are you sure?
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
-                                                    data-dismiss="modal">Close</button>
-                                                <button id="modalDelete" onclick="deleteAccount()" type="button"
-                                                    class="btn btn-danger">Delete</button>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                        <div class="modal-dialog" role="document">
+                                            <div class="modal-content">
+                                                <div class="modal-header">
+                                                    <h5 class="modal-title" id="exampleModalLabel">Delete Account</h5>
+                                                    <button type="button" class="close" data-dismiss="modal"
+                                                        aria-label="Close">
+                                                        <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                    Are you sure?
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="btn btn-secondary"
+                                                        data-dismiss="modal">Close</button>
+                                                    <button id="modalDelete" onclick="deleteAccount()" type="button"
+                                                        class="btn btn-danger">Delete</button>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
-
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
-
             </div>
 
         </div>

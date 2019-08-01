@@ -52,3 +52,7 @@ body {
 .btn.btn-dark {
     color: #F4C724;
 }
+
+h1 {
+    padding-top: 50px;
+}

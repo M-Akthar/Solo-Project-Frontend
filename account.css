@@ -17,24 +17,11 @@ body {
 
 /* ---------------------------------------------- Nav --------------------------------------------- */
 
-/* .navC {
-    width: 90%;
-    text-align: right;
-}
-
-.navC p {
-    display: inline-block;
-    margin-left: 5px;
-    text-decoration: underline;
-} */
-
 .navC .card {
     margin: 5px;
     text-align: center;
     opacity: 0.8;
     width: 20%;
-    /* min-width: 100px;
-    margin-left: 80%; */
 }
 
 /* ------------------------------------------------- Main body ------------------------------------- */
