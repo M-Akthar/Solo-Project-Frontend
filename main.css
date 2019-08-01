@@ -34,6 +34,10 @@ a {
 
 /* ------------------------------------------ Nav Section ------------------------------------- */
 
+#navRow {
+    padding-top: 15px;
+}
+
 #navUser {
     /* text-align: right; */
     padding-top: 10px;
@@ -59,6 +63,10 @@ a {
 }
 
 /* ------------------------------------------- List Section ---------------------------------- */
+
+#listEntry {
+    padding-top: 15px;
+}
 
 #listEntry .card {
     max-width: 50%;

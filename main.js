@@ -61,7 +61,7 @@ function getUserTasks() {
         for (let element of value) {
             userTasksArray.push(element);
         }
-        document.getElementById("taskPointer").innerText = "";
+        document.getElementById("taskPointer").innerText = ""; // Clears the list
         populatePage();
 
     })
